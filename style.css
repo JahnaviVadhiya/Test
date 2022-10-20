@@ -1,33 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*FOR 1ST GRAY BOX*/
-.div1 {
-  background-color: #c3c3c2de;
-  height: 50px;
-  margin-bottom: 30px;
+
+.main-container {
+  height: 100%;
+  width: 100%;
 }
 
-/*FOR 2ND GRAY BOX*/
-.div2 {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+.top-header {
+  width: 100%;
+  height: 10%;
+  background-color: #d4d4d4;
+  margin: 0 0 3% 0;
 }
 
-/*FOR 3RD GRAY BOX : CONTAINS TWO DIVISIONS*/
-.div3 {
-  background-color: #c3c3c2de;
-  height: 600px;
-  width: 660px;
+.header1 {
+  width: 50%;
+  margin: 0 auto 3% auto;
+}
+
+/*For Division : having 2 gray box*/
+.box-container1 {
+  height: 100%;
+  margin: 0 0 3% 0;
+}
+
+.leftbox {
+  background-color: #d4d4d4;
+  height: 100%;
+  width: 49%;
   float: left;
-  margin-bottom: 30px;
 }
 
-.div4 {
-  margin-right: 0;
+.rightbox {
   float: right;
 }
 
@@ -35,123 +48,127 @@
   content: "";
   display: block;
   clear: both;
+  margin: 0 0 2% 0;
 }
 
-/*FOR 5TH GRAY BOX*/
-.div5 {
+/*For Second Header*/
+.header2 {
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 0 auto 3% auto;
 }
 
-/*FOR 6TH GRAY BOX : CONTAINS UPTO DIV13*/
-.div6-container {
-  margin: 0px 25px 30px 25px;
+/*For Grid Box Layout*/
+.grid-section {
+  height: 100%;
+  margin: 0 3% 3% 3%;
 }
-.div6 {
-  background-color: #c3c3c2de;
-  height: 317px;
-  width: 317px;
+
+.gridbox1 {
+  background-color: #d4d4d4;
+  height: 49%;
+  width: 24.25%;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 0 1% 1% 0;
 }
 
-.div9,
-.div13 {
-  margin-right: 0;
+.gridbox4,
+.gridbox8 {
+  margin: 0 0 1% 0;
 }
 
-/*FOR 14TH GRAY BOX*/
-.div14 {
+/* For header 3*/
+.header3 {
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto 3% auto;
 }
 
-/*FOR 15TH GRAY BOX : CONTAINS 3 DIVS WHICH IS ALSO CONTAINING 3 DIV [TOP,MIDDLE,BOTTOM] */
-.div15-container {
-  background-color: #c3c3c2de;
-  margin-bottom: 30px;
-}
+/*For Plan Container*/
 
-.div15-first {
-  background-color: #ffffff;
-  height: 500px;
-  width: 350px;
-  margin: 85px 0px 85px 85px;
-  float: left;
+.plans {
+  background-color: lightgrey;
+  width: 100%;
+  margin-bottom: 3%;
 }
-
-.div15-second {
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+.planbox {
+  background-color: white;
+  width: 32%;
+  margin: 50px 0;
+  display: inline-block;
+  margin-right: 13px;
+}
+.planbox:last-child {
   margin-right: 0px;
-  margin-left: 65px;
+}
+.plan1 {
+  padding: 20px;
+  background-color: lightgrey;
+  width: 93%;
+  margin: 13px;
+}
+.plan2 {
+  padding: 80px;
+  background-color: lightgrey;
+  width: 93%;
+  margin: 13px;
 }
 
-.div15-third {
-  margin-right: 80px;
-  margin-left: 65px;
-}
-
-.top {
-  background-color: #c3c3c2de;
-  height: 50px;
-  width: 300px;
-  margin: 25px;
-}
-
-.middle,
-.bottom {
-  height: 175px;
-}
-
-/*FOR 16TH GRAY BOX*/
-.div16 {
+/*For Header 4*/
+.header4 {
   width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin: 0 auto 3% auto;
 }
 
-/*FOR 17TH GRAY BOX :CONTAINS 6 HORIZONTAL GYA BOX*/
-.line-container {
+/*For Line Container*/
+.horizontal-box {
+  height: 100%;
   width: 40%;
-  margin: 0px 30% 45px 30%;
+  margin: 0 auto 5% auto;
 }
 
-.linediv {
-  background-color: #c3c3c2de;
-  height: 50px;
-  margin-bottom: 10px;
-}
-.line4 {
-  height: 250px;
-  margin-bottom: 20px;
+.horizontalbox1 {
+  background-color: #d4d4d4;
+  height: 10%;
+  margin: 0 0 3% 0;
 }
 
-.line5,
-.line6 {
+.horizontalbox4 {
+  height: 45%;
+  margin: 0 0 6% 0;
+}
+
+.horizontalbox5,
+.horizontalbox6 {
   width: 47%;
+  margin: 0 0 0 0;
+}
+
+.horizontalbox5 {
   float: left;
 }
 
-.line6 {
+.horizontalbox6 {
   float: right;
 }
 
-/*FOR LAST GRAY BOX*/
-.last-container {
-  background-color: #c3c3c2de;
+/* For footer Container*/
+.footer {
+  height: 40%;
+  background-color: #d4d4d4;
+  padding: 2%;
 }
 
-.secondlastdiv {
-  background-color: #f9f9f9;
-  height: 200px;
-  width: 640px;
+.leftfooterbox {
+  background-color: #ffffff;
+  height: 100%;
+  width: 49%;
   float: left;
-  margin: 20px;
 }
 
-.lastdiv {
+.rightfooterbox {
   float: right;
   margin-left: 0;
 }
