@@ -17,7 +17,7 @@ body {
 
 .top-header {
   width: 100%;
-  height: 10%;
+  height: 40px;
   background-color: #d4d4d4;
   margin: 0 0 3% 0;
 }
@@ -29,7 +29,7 @@ body {
 
 /*For Division : having 2 gray box*/
 .box-container1 {
-  height: 100%;
+  height: 500px;
   margin: 0 0 3% 0;
 }
 
@@ -59,7 +59,7 @@ body {
 
 /*For Grid Box Layout*/
 .grid-section {
-  height: 100%;
+  height: 500px;
   margin: 0 3% 3% 3%;
 }
 
@@ -103,13 +103,13 @@ body {
 .planbox:last-child {
   margin-right: 0px;
 }
-.plan1 {
+.box1 {
   padding: 20px;
   background-color: lightgrey;
   width: 93%;
   margin: 13px;
 }
-.plan2 {
+.box2 {
   padding: 80px;
   background-color: lightgrey;
   width: 93%;
@@ -124,7 +124,7 @@ body {
 
 /*For Line Container*/
 .horizontal-box {
-  height: 100%;
+  height: 500px;
   width: 40%;
   margin: 0 auto 5% auto;
 }
@@ -156,7 +156,7 @@ body {
 
 /* For footer Container*/
 .footer {
-  height: 40%;
+  height: 250px;
   background-color: #d4d4d4;
   padding: 2%;
 }
